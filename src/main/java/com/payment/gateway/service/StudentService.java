@@ -11,4 +11,6 @@ public interface StudentService {
 
 	Map<String, Object> createPayment() throws JsonProcessingException;
 
+	Map<String, Object> decryptAndSave(String encdata);
+
 }
